@@ -52,6 +52,6 @@ int main() {
         printf("The answer is %2.2f", ans);
     }
     else {
-        printf("Invalid choice.\n");
+        printf("Invalid choice. Lmao\n");
     }
 }
