@@ -11,9 +11,9 @@ int main() {
     printf("6. x^2(Square)\n");
     printf("7. Trigonometric ratios\n");
     printf("8. (a+b)^2(Equation)\n");
-    printf("9. Infinite Series Calculator\n")
+    printf("9. Infinite Series Calculator\n");
     printf("10. Oxidization State calculator\n");
-    printf("11. Quadratic Equation solver.")
+    printf("11. Quadratic Equation solver.\n\n");
     scanf("%f", &choice);
     if (choice==1) {
         printf("Put the numbers you want to addition: x y\n");
@@ -149,12 +149,12 @@ int main() {
         ans=(var1+var2)*(var1+var2);
         printf("The answer for (%2.2f +%2.2f)^2 is %2.2f", var1,var2,ans);
     }
-    else if(choice==9) {{
-
+    else if(choice==9)
+        {
             char choice;
             printf("This is a calculator for infinite geometric series related stuff.\n\n");
             printf("Do you have the value of a and r? (y/n)\n");
-            scanf("%c", &choice);
+            scanf(" %c", &choice);
             if (choice=='n') {
                 float f1,f2,ans_a,ans_r;
                 printf("Write the first 2 terms of the infinite geometric series\n");
@@ -205,11 +205,7 @@ int main() {
                     printf("Wrong option!\n");
                 }
             }
-            else {
-                printf("Wrong option!\n");
-            }
         }
-    }
     else if(choice==10) {
         {
             printf("This is an calculator for measuring the oxidization states of 3 elemental molecules.\n\n\n");
@@ -227,7 +223,7 @@ int main() {
             return 0;
         }
     }
-    else if(choice=11){
+    else if(choice==11){
         {
             float a,b,c,r1,r2;
             printf("Type values of a, b, c\n");
