@@ -1,6 +1,8 @@
-Welcome to my test repo.
-This isnt a serious project- Just small programming projects of mine, I did entirely by myself
-This repo is open because, its for another beginner to see my work.
-Feel free to copy anything, use them for your own stuff, Or use them for learning!
+# Wilkommen zu mein Test repo / Welcome to my Test repo
+These are just my casual programming/other things projects, I do for hobby.
+Feel free to explore or copy these for your own!.
+-
+Das sind nur meine gelegentlichen Programmierprojekte/anderen Dinge, die ich als Hobby mache.
+gerne kopieren
 
 BetaNeutrino(c)
